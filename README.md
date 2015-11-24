@@ -1,4 +1,4 @@
-# Create handy terminal aliases
+# Handy terminal aliases
 
 How to create useful terminal aliases to make your life easier (you can call them whatever you like).
 
