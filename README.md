@@ -9,7 +9,7 @@ $ alias root="cd $(git rev-parse --show-toplevel)"
 ```
 
 ## Git sync
-Create a global git command that connect git pull and git push:
+Create a global git command that connects git pull and git push:
 
 ```sh
 $ git config --global alias.sync '!git pull --rebase && git push'
