@@ -3,4 +3,6 @@ just utils
 
 ## Handy terminal aliases
 
-alias root="cd $(git rev-parse --show-toplevel)"
+```sh
+$ alias root="cd $(git rev-parse --show-toplevel)"
+```
