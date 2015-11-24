@@ -1,4 +1,4 @@
-# Terminal aliases
+# Handy terminal aliases
 
 ## Git root
 Command that takes you to git root directory:
