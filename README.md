@@ -8,6 +8,12 @@ Useful tasks, configs, terminal aliases and more...
 * [.htaccess](.htaccess) with server gzip compression and browser caching
 * [.jshintrc](.jshintrc) with basic config for [jshint](http://jshint.com/)
 
+### Aliases
+
+* [custom aliases](aliases.md) for terminal
+* [git aliases](git-aliases.md) for terminal
+
+
 ### Tasks
 
-* [resize images](tasks/resizeImage.js) (script for resize multiple images)
+* [resize images](tasks/resizeImage.js) (script to resize multiple images)
