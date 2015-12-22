@@ -16,4 +16,5 @@ Useful tasks, configs, terminal aliases and more...
 
 ### Tasks
 
+* [gulp tasks](tasks/gulpfile.js) for watch, concat and minify files
 * [resize images](tasks/resizeImage.js) (script to resize multiple images)
