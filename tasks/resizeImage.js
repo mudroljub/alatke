@@ -15,7 +15,7 @@ request(url, findAllImages);
 
 function findAllImages(error, response, page) {
 	var $ = cheerio.load(page);
-	$('.flipster0 img').each(function () {
+	$('.slider img').each(function () {
 		compareAndResize($(this));
 	});
 	console.log("To je sve narode. ");
