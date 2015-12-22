@@ -1,6 +1,6 @@
 # Handy git aliases
 
-How to create useful terminal aliases to make your life easier (you can call them whatever you like).
+Create useful terminal aliases to make your life easier (you can call them whatever you like).
 
 ## Git root
 Create a terminal command that takes you to the git root directory of the project:
