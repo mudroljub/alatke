@@ -5,4 +5,4 @@ Useful tasks, configs, terminal aliases and more...
 ## Content
 
 * [.htaccess](.htaccess) with server gzip compression and browser caching
-* * [.jshintrc](.jshintrc) 
+* [.jshintrc](.jshintrc) with basic config for [jshint](http://jshint.com/)
