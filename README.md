@@ -14,9 +14,12 @@ Useful tasks, configs, terminal aliases and more...
 * [git aliases](git-aliases.md) for terminal
 
 
-### Tasks
+### Gulp tasks
 
 * [Common gulp tasks](tasks/gulpfile.js) for watch, concat and minify files
 * [Resize images](tasks/resize-images.js) (script to resize multiple images)
 * [Upload images](tasks/upload-images.js) (upload images to server, far more faster then FileZilla)
 * [Critical CSS](tasks/gulp-critical.js) for creating critical above-the-fold CSS
+
+### Commands
+* Various [terminal and Emmet commands](commands.md)
