@@ -28,7 +28,7 @@ tr : '\n' <<<$PATH
 
 Otvara nezavisno od terminala:
 ```
-nohup ili
+nohup (ili)
 setsid
 ```
 
