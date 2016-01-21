@@ -23,3 +23,6 @@ Useful tasks, configs, terminal aliases and more...
 
 ### Commands
 * [Various terminal and Emmet commands](commands.md)
+
+### Typescript definitions
+* [tsd.json](tsd.json) with basic Typescript definitions for AngularJS
