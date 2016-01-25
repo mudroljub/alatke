@@ -1,10 +1,5 @@
 ### Terminal
 
-Terminal shell:
-```
-/usr/local/bin/zsh
-```
-
 Za konzolu u boji, edituje se ovajl fajl u home:
 ```
 cd
