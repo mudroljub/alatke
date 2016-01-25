@@ -8,6 +8,8 @@ atom .bashrc
 
 Koja sam user grupa:
 ```
+groups $(whoami)
+ili
 groups $(whoami) | cut -d' ' -f1
 ```
 
