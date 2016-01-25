@@ -5,12 +5,12 @@ Create useful terminal aliases to make your life easier (you can call them whate
 ## Git root
 Create a terminal command that takes you to the git root directory of the project:
 ```sh
-$ alias root="cd $(git rev-parse --show-toplevel)"
+alias root="cd $(git rev-parse --show-toplevel)"
 ```
 
 Now you can just type:
 ```sh
-$ root
+root
 ```
 
 
@@ -18,10 +18,10 @@ $ root
 Create a global git command that connects git pull and git push:
 
 ```sh
-$ git config --global alias.sync '!git pull --rebase && git push'
+git config --global alias.sync '!git pull --rebase && git push'
 ```
 
 Now you can just type:
 ```sh
-$ git sync
+git sync
 ```
