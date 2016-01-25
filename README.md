@@ -11,7 +11,7 @@ Useful tasks, configs, terminal aliases and more...
 ### Aliases
 
 * [custom aliases](aliases.md) for terminal
-* [git aliases](git-aliases.md) for terminal
+* [git aliases](aliases-git.md) for terminal
 
 
 ### Gulp tasks
@@ -22,7 +22,7 @@ Useful tasks, configs, terminal aliases and more...
 * [Critical CSS](tasks/gulp-critical.js) for creating critical above-the-fold CSS
 
 ### Commands
-* [Various Terminal commands](commands.md)
+* [Various Terminal commands](commands-terminal.md)
 * [Various Emmet commands](commands-emmet.md)
 
 ### Typescript definitions
