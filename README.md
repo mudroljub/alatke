@@ -22,7 +22,8 @@ Useful tasks, configs, terminal aliases and more...
 * [Critical CSS](tasks/gulp-critical.js) for creating critical above-the-fold CSS
 
 ### Commands
-* [Various terminal and Emmet commands](commands.md)
+* [Various Terminal commands](commands.md)
+* [Various Emmet commands](commands-emmet.md)
 
 ### Typescript definitions
 * [tsd.json](tsd.json) with basic Typescript definitions for AngularJS
