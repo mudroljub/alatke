@@ -1,15 +1,15 @@
 {
-    "esnext": true,
+    "strict": "global",
     "esversion": 6,
     "strict": true,
-    "globalstrict": true,
-    "indent": 4,
     "undef": true,
     "unused": true,
     "newcap": true,
     "browser": true,
     "predef": [
         "angular",
-    ],
-    "jquery": true
+    ],    
+    "module": true,
+    "devel": true,
+    "asi": true
 }
