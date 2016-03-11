@@ -32,7 +32,7 @@ Useful tasks, configs, terminal aliases and more...
 * [config.cson](config.cson) Configuration file of Atom editor and installed packages
 * [atom-packages.list](atom-packages.list) List of installed packages
 
-Both files should be moved to `~/.atom` directory. Install packages with this command:
+Both files should be moved to `~/.atom` directory. You can install packages with this command:
 ```
 apm install `cat atom-packages.list`
 ```
