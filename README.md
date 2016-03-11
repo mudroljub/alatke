@@ -16,7 +16,7 @@ Useful tasks, configs, terminal aliases and more...
 
 * [.jshintrc](.jshintrc) with basic config for [jshint](http://jshint.com/)
 
-### Gulp
+### Gulp tasks
 
 * [Common gulp tasks](tasks/gulpfile.js): watch, concat and minify files
 * [Resize images](tasks/resize-images.js) (script to resize multiple images)
