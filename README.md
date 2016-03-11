@@ -27,10 +27,12 @@ Useful tasks, configs, terminal aliases and more...
 * [tsd.json](tsd.json) with basic Typescript definitions for AngularJS
 
 ### Atom editor
+Navigate to `~/.atom` directory and copy those files.
+
 * [config.cson](config.cson) Configuration file of Atom editor and installed packages
 * [atom-packages.list](atom-packages.list) List of installed packages
 
-Both files should be moved to `~/.atom` directory. Then, install packages with this command:
+Then, install packages with this command:
 ```
 apm install `cat atom-packages.list`
 ```
