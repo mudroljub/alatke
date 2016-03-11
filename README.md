@@ -16,10 +16,6 @@ Useful tasks, configs, terminal aliases and more...
 
 * [.jshintrc](.jshintrc) with basic config for [jshint](http://jshint.com/)
 
-## Apache
-
-* [.htaccess](.htaccess) with server gzip compression and browser caching
-
 ### Gulp tasks
 
 * [Common gulp tasks](tasks/gulpfile.js): watch, concat and minify files
@@ -38,6 +34,10 @@ Both files should be moved to `~/.atom` directory. You can install packages with
 ```
 apm install `cat atom-packages.list`
 ```
+
+### Apache
+
+* [.htaccess](.htaccess) with server gzip compression and browser caching
 
 ### Other
 
