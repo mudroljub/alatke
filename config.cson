@@ -1,0 +1,23 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "77109a41-9823-42b1-a6d5-c0eeb9ea72f5"
+  "atom-terminal": {}
+  core:
+    disabledPackages: [
+      "jshint"
+    ]
+  editor:
+    fontSize: 15
+    invisibles: {}
+    softWrap: true
+  "exception-reporting":
+    userId: "ac1a1520-0319-308e-b1de-2ebf8101c14a"
+  linter:
+    errorPanelHeight: 24
+  "linter-jshint": {}
+  "open-terminal-here": {}
+  "terminal-plus":
+    core: {}
+    style: {}
+  welcome:
+    showOnStartup: false

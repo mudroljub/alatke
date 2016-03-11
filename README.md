@@ -27,3 +27,6 @@ Useful tasks, configs, terminal aliases and more...
 
 ### Typescript definitions
 * [tsd.json](tsd.json) with basic Typescript definitions for AngularJS
+
+### Atom editor config
+* [config](config) 
