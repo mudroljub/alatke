@@ -29,4 +29,11 @@ Useful tasks, configs, terminal aliases and more...
 * [tsd.json](tsd.json) with basic Typescript definitions for AngularJS
 
 ### Atom editor config
-* [config](config) 
+* [config](config) Configuration of Atom editor and installed packages
+* [atom-packages.list](atom-packages.list) List of installed packages
+
+Config file should be moved to `~/.atom/config.cson`
+Packages should be installed from `~/.atom` directory with this command:
+```
+apm install `cat atom-packages.list`
+```
