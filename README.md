@@ -1,4 +1,4 @@
-# My sweet little helpers
+# My programming tools
 
 Useful tasks, configs, terminal aliases and more...
 
