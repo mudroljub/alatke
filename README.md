@@ -2,6 +2,9 @@
 
 Useful tasks, configs, terminal aliases and more...
 
+### Helper functions
+
+* [Helper JS functions](functions.js)
 
 ### Git
 
