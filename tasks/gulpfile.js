@@ -11,32 +11,18 @@ var ftp = require('vinyl-ftp');
 
 /*** PARAMS ***/
 
-var stagingAccess = {
-	host: "staging.prager-dreifuss.com",
-	user: "webmaster@prager-dreifuss.com",
-	password: "R1pUnQlj++"
+var access = {
+	host: "smrda.com",
+	user: "prda@smrda.com",
+	password: "*********"
 };
 
-var liveAccess = {
-	host: "prager-dreifuss.com",
-	user: "all@prager-dreifuss.com",
-	password: "UJxnUVsr"
+var paths = {
+	themeRoot: 'www/smrda.com/wp-content/themes/smrda',
+	themeJs: 'www/smrda.com/wp-content/themes/smrda/js'
 };
 
-var stagingPaths = {
-	themeRoot: 'wp-content/themes/prager',
-	themeJs: 'wp-content/themes/prager/js'
-};
-
-var livePaths = {
-	themeRoot: 'www/pragerdr.myhostpoint.ch/wp-content/themes/prager',
-	themeJs: 'www/pragerdr.myhostpoint.ch/wp-content/themes/prager/js'
-};
-
-// set staging or live
-var connection = ftp.create(liveAccess);
-var paths = livePaths;
-
+var connection = ftp.create(access);
 
 /*** CSS TASKS ***/
 
