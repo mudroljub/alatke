@@ -1,9 +1,8 @@
 ### Terminal
 
-Za konzolu u boji, edituje se ovajl fajl u home:
+Nalazi sve `.txt` fajlove rekurzivno u podfolderima i premešta ih:
 ```
-cd
-atom .bashrc
+find . -name "*.txt" -exec mv -t nova_lokacija/ {} +
 ```
 
 Koja sam user grupa:
@@ -11,11 +10,6 @@ Koja sam user grupa:
 groups $(whoami)
 ili
 groups $(whoami) | cut -d' ' -f1
-```
-
-Proveraca apache (apache nece da krene kad se obrise log folder!) :
-```
-sudo apachectl configtest
 ```
 
 Štampa čitljiv $PATH:
@@ -27,4 +21,15 @@ Otvara nezavisno od terminala:
 ```
 nohup (ili)
 setsid
+```
+
+Proverava apache (apache nece da krene kad se obrise log folder!) :
+```
+sudo apachectl configtest
+```
+
+Za konzolu u boji, edituje se ovajl fajl u home:
+```
+cd
+atom .bashrc
 ```
