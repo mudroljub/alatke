@@ -6,14 +6,14 @@ Useful tasks, configs, terminal aliases and more...
 
 * [Helper JS functions](functions.js)
 
+### Terminal
+
+* [Aliases](aliases.md)
+* [Commands](commands-terminal.md)
+
 ### Git
 
 * [git aliases](aliases-git.md) for terminal
-
-### Terminal
-
-* [custom aliases](aliases.md) for terminal
-* [Various Terminal commands](commands-terminal.md)
 
 ### Linter
 
