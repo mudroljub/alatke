@@ -23,7 +23,7 @@ Useful tasks, configs, terminal aliases and more...
 
 * [Common gulp tasks](tasks/gulpfile.js): watch, concat and minify files
 * [Build CSS](tasks/build-css.js) (concat, minify, autoprefix)
-* [Build CSS](tasks/build-js.js) (concat, minify)
+* [Build JS](tasks/build-js.js) (concat, minify)
 * [Resize images](tasks/resize-images.js) (script to resize multiple images)
 * [Upload images](tasks/upload-images.js) (upload images to server, far more faster then FileZilla)
 * [Critical CSS](tasks/gulp-critical.js) for creating critical above-the-fold CSS
