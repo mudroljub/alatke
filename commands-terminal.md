@@ -1,8 +1,8 @@
 ### Terminal
 
-Nalazi sve `.txt` fajlove rekurzivno u podfolderima i premešta ih:
+Nalazi sve `.mobi` fajlove rekurzivno u podfolderima i premešta ih:
 ```
-find . -name "*.txt" -exec mv -t nova_lokacija/ {} +
+find . -name "*.mobi" -exec mv -t nova_lokacija/ {} +
 ```
 
 Koja sam user grupa:
