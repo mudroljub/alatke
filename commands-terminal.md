@@ -2,7 +2,7 @@
 
 Nalazi sve `.mobi` fajlove rekurzivno u podfolderima i premešta ih:
 ```
-find . -name "*.mobi" -exec mv -t nova_lokacija/ {} +
+find . -name "*.mobi" -exec mv -t literatura/za-citac/ {} +
 ```
 
 Koja sam user grupa:
