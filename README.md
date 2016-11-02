@@ -10,15 +10,7 @@ Useful tasks, configs, terminal aliases and more...
 
 * [Aliases](aliases.md)
 * [Commands](commands-terminal.md)
-* [Watch](tasks/watch.sh) (run multiple npm start)
-
-### Git
-
-* [git aliases](aliases-git.md) for terminal
-
-### Linter
-
-* [.jshintrc](.jshintrc) with basic config for [jshint](http://jshint.com/)
+* [Watch task](tasks/watch.sh) (run multiple npm start)
 
 ### Gulp tasks
 
@@ -28,6 +20,14 @@ Useful tasks, configs, terminal aliases and more...
 * [Resize images](tasks/resize-images.js) (script to resize multiple images)
 * [Upload images](tasks/upload-images.js) (upload images to server, far more faster then FileZilla)
 * [Critical CSS](tasks/gulp-critical.js) for creating critical above-the-fold CSS
+
+### Git
+
+* [git aliases](aliases-git.md) for terminal
+
+### Linter
+
+* [.jshintrc](.jshintrc) with basic config for [jshint](http://jshint.com/)
 
 ### Typescript
 * [tsd.json](tsd.json) with basic Typescript definitions for AngularJS
