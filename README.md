@@ -10,6 +10,7 @@ Useful tasks, configs, terminal aliases and more...
 
 * [Aliases](aliases.md)
 * [Commands](commands-terminal.md)
+* [Watch](tasks/watch.sh) (run multiple npm start)
 
 ### Git
 
