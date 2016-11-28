@@ -1,0 +1,10 @@
+{
+    "esversion": 6,
+    "node": true,
+    "quotmark": true,
+    "undef": true,
+    "unused": true,
+    "newcap": true,
+    "browser": true,
+    "devel": true
+}
