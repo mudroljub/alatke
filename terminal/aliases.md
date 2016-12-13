@@ -4,7 +4,7 @@
 # put in .bashrc or .zshrc
 alias otv="xdg-open"
 alias ovde="nautilus . &"
-alias projekti="cd /var/www/html"
+alias projekti="cd /home/damjan/projekti"
 alias gituj="git add . && git commit -a -m"
 alias root="cd $(git rev-parse --show-toplevel)"
 
