@@ -5,6 +5,11 @@ Nalazi sve `.mobi` fajlove rekurzivno u podfolderima i premešta ih:
 find . -name "*.mobi" -exec mv -t literatura/za-citac/ {} +
 ```
 
+Menja sve nazive fajlova u mala slova:
+```
+rename 'y/A-Z/a-z/' *
+```
+
 Koja sam user grupa:
 ```
 groups $(whoami)
