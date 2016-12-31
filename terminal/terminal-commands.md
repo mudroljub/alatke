@@ -1,6 +1,19 @@
 ### Terminal
 
-Nalazi i menja svaki tga sa png u fajl.txt:
+Menja image format:
+```
+convert image.png image.jpg
+```
+Može i masovno:
+```
+mogrify -format jpg *.png  
+```
+ili
+```
+for i in *.tga ; do convert "$i" "${i%.*}.png" ; done
+```
+
+Find and replace string - nalazi i menja svaki `tga` sa `png` u fajl.txt:
 ```
 sed -i -- 's/tga/png/g' fajl.txt
 ```
