@@ -1,5 +1,10 @@
 ### Terminal
 
+Nalazi i menja svaki tga sa png u fajl.txt:
+```
+sed -i -- 's/tga/png/g' fajl.txt
+```
+
 Nalazi sve `.mobi` fajlove rekurzivno u podfolderima i premešta ih:
 ```
 find . -name "*.mobi" -exec mv -t literatura/za-citac/ {} +
