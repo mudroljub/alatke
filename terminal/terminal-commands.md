@@ -2,11 +2,11 @@
 
 Menja image format:
 ```
-convert image.png image.jpg
+convert image.tga image.png
 ```
 Može i masovno:
 ```
-mogrify -format jpg *.png  
+mogrify -format tga *.png  
 ```
 ili
 ```
