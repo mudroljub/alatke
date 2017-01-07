@@ -56,3 +56,8 @@ Za konzolu u boji, edituje se ovajl fajl u home:
 cd
 atom .bashrc
 ```
+
+Otvara trenutni folder u file exploreru:
+```
+nautilus .
+```
