@@ -1,5 +1,11 @@
 ### Terminal
 
+Menja ekstenziju u mala slova:
+rename 's/\.MD$/.md/' *.MD
+
+Menja ekstenziju u mala slova u podfolderima:
+rename 's/\.MD$/.md/' */*.MD
+
 Menja image format:
 ```
 convert image.tga image.png
