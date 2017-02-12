@@ -11,6 +11,7 @@
       "quotes": ["error", "single"],
       "no-undef": "error",
       "no-unused-vars": "error",
+      "no-redeclare": "error",
       "no-use-before-define": "error",
       "no-dupe-args": "error",
       "no-dupe-keys": "error",
@@ -20,7 +21,7 @@
       "no-param-reassign": "error",
       "vars-on-top": "error",
       "no-shadow-restricted-names": "error",
-      "indent": ["error", 2],
+      "indent": ["warn", 2],
       "operator-assignment": ["error", "always"],
       "space-before-blocks": "warn",
       "space-before-function-paren": ["warn", "never"],
@@ -36,7 +37,8 @@
       "no-duplicate-imports": "error",
       "no-var": "error",
       "object-shorthand": "error",
-      "prefer-const": "error"
+      "prefer-const": "warn",
+      "no-invalid-this": "error"
   },
   "parserOptions": {
       "ecmaVersion": 8,
