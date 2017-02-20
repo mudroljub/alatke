@@ -39,7 +39,8 @@
       "object-shorthand": "error",
       "prefer-const": "warn",
       "no-invalid-this": "error",
-      "space-infix-ops": "warn"
+      "space-infix-ops": "warn",
+      "comma-spacing": ["warn", { "before": false, "after": true }]
   },
   "parserOptions": {
       "ecmaVersion": 8,
