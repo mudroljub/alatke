@@ -38,7 +38,8 @@
       "no-var": "error",
       "object-shorthand": "error",
       "prefer-const": "warn",
-      "no-invalid-this": "error"
+      "no-invalid-this": "error",
+      "space-infix-ops": "warn"
   },
   "parserOptions": {
       "ecmaVersion": 8,
