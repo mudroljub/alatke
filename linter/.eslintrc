@@ -40,7 +40,8 @@
       "prefer-const": "warn",
       "no-invalid-this": "error",
       "space-infix-ops": "warn",
-      "comma-spacing": ["warn", { "before": false, "after": true }]
+      "comma-spacing": ["warn", { "before": false, "after": true }],
+      "spaced-comment": ["warn", "always"]
   },
   "parserOptions": {
       "ecmaVersion": 8,
