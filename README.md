@@ -1,5 +1,5 @@
-# Moji programerski alati
+# Moje programerske alatke
 
-![alati](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/K%C3%B8ller_og_mukkert.png/640px-K%C3%B8ller_og_mukkert.png)
+![alatke](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/20060513_toolbox.jpg/640px-20060513_toolbox.jpg)
 
 Korisne skripte, podešavanja lintera, build automatizacija, komande za terminal, aliasi...
