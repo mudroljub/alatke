@@ -1,10 +1,18 @@
-### Terminal
+# Terminal
+
+### Menja ekstenziju
 
 Menja ekstenziju u mala slova:
+```
 rename 's/\.MD$/.md/' *.MD
+```
 
 Menja ekstenziju u mala slova u podfolderima:
+```
 rename 's/\.MD$/.md/' */*.MD
+```
+
+### Menja format slika
 
 Menja image format:
 ```
@@ -19,20 +27,28 @@ ili
 for i in *.tga ; do convert "$i" "${i%.*}.png" ; done
 ```
 
+### Menja string
+
 Find and replace string - nalazi i menja svaki `tga` sa `png` u fajl.txt:
 ```
 sed -i -- 's/tga/png/g' fajl.txt
 ```
+
+### Premešta fajlove
 
 Nalazi sve `.mobi` fajlove rekurzivno u podfolderima i premešta ih:
 ```
 find . -name "*.mobi" -exec mv -t literatura/za-citac/ {} +
 ```
 
+### Preimenuje fajlove
+
 Menja sve nazive fajlova u mala slova:
 ```
 rename 'y/A-Z/a-z/' *
 ```
+
+### Razno
 
 Koja sam user grupa:
 ```
@@ -46,6 +62,17 @@ groups $(whoami) | cut -d' ' -f1
 tr : '\n' <<<$PATH
 ```
 
+Za konzolu u boji, edituj `.bashrc` u home:
+```
+cd
+nano .bashrc
+```
+
+Otvara trenutni folder u file exploreru:
+```
+nautilus .
+```
+
 Otvara nezavisno od terminala:
 ```
 nohup (ili)
@@ -55,15 +82,4 @@ setsid
 Proverava apache (apache nece da krene kad se obrise log folder!) :
 ```
 sudo apachectl configtest
-```
-
-Za konzolu u boji, edituje se ovajl fajl u home:
-```
-cd
-atom .bashrc
-```
-
-Otvara trenutni folder u file exploreru:
-```
-nautilus .
 ```
