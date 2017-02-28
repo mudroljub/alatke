@@ -3,3 +3,6 @@
 # Moje programerske alatke
 
 Korisne skripte, podešavanja lintera, build automatizacija, komande za terminal, aliasi... Vredi pogledati.
+
+Izdvajamo:
+* [Podešavanja za linter](https://github.com/mudroljub/alatke/blob/master/linter/.eslintrc)
