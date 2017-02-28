@@ -1,5 +1,17 @@
 # Terminal
 
+### Rekurzivno nalazi i briše
+
+Prvo nalazi:
+```
+find . -name "*.spec.js" -type f
+```
+
+Potom briše:
+```
+find . -name "*.spec.js" -type f -delete
+```
+
 ### Menja ekstenziju
 
 Menja ekstenziju u mala slova:
@@ -27,9 +39,9 @@ ili
 for i in *.tga ; do convert "$i" "${i%.*}.png" ; done
 ```
 
-### Menja string
+### Nalazi i menja tekst
 
-Find and replace string - nalazi i menja svaki `tga` sa `png` u fajl.txt:
+Nalazi i menja svaki `tga` sa `png` u fajl.txt:
 ```
 sed -i -- 's/tga/png/g' fajl.txt
 ```
