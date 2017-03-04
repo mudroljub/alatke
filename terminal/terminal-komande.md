@@ -60,6 +60,18 @@ Menja sve nazive fajlova u mala slova:
 rename 'y/A-Z/a-z/' *
 ```
 
+### Prikazuje ko zauzima mesto na disku
+
+Prikazuje sve:
+```
+du -h
+```
+
+Prikazuje samo velike potrosace (vise od giga):
+```
+du -h | grep '[0-9\.]\+G'
+```
+
 ### Razno
 
 Koja sam user grupa:
