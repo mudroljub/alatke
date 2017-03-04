@@ -1,6 +1,6 @@
 # Terminal
 
-### Rekurzivno nalazi i briše
+### Rekurzivno nalazi i briše fajlove
 
 Prvo nalazi:
 ```
@@ -10,6 +10,13 @@ find . -name "*.spec.js" -type f
 Potom briše:
 ```
 find . -name "*.spec.js" -type f -delete
+```
+
+### Preimenuje fajlove
+
+Menja sve nazive fajlova u mala slova:
+```
+rename 'y/A-Z/a-z/' *
 ```
 
 ### Menja ekstenziju
@@ -51,13 +58,6 @@ sed -i -- 's/tga/png/g' fajl.txt
 Nalazi sve `.mobi` fajlove rekurzivno u podfolderima i premešta ih:
 ```
 find . -name "*.mobi" -exec mv -t literatura/za-citac/ {} +
-```
-
-### Preimenuje fajlove
-
-Menja sve nazive fajlova u mala slova:
-```
-rename 'y/A-Z/a-z/' *
 ```
 
 ### Prikazuje ko zauzima mesto na disku
