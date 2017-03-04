@@ -1,5 +1,11 @@
 # Terminal
 
+### Kopiranje sa servera na lokal
+
+```
+scp gorran01@znaci.net:public_html/damjan/ukljuci/povezivanje.php ukljuci/povezivanje.php
+```
+
 ### Rekurzivno nalazi i briše fajlove
 
 Prvo nalazi:
