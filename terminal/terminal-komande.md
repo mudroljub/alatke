@@ -72,6 +72,34 @@ Prikazuje samo velike potrosace (vise od giga):
 du -h | grep '[0-9\.]\+G'
 ```
 
+### Broji fajlove
+
+Prikazuje ukupan broj fajlova:
+```
+find . -type f | wc -l
+```
+
+Prikazuje broj fajlova po direktorijima za trenutni nivo:
+```
+du -a | cut -d/ -f2 | sort | uniq -c | sort -nr
+```
+
+Prikazuje broj fajlova po direktorijima i poddirektorijima:
+```
+find . -type d -print0 | while read -d '' -r dir; do
+    files=("$dir"/*)
+    printf "%5d files in directory %s\n" "${#files[@]}" "$dir"
+done
+```
+
+### Brisanje
+
+Nekad `rm -rf` nece da obrise dir (ako ima nevidljivih i sl). Tada mora:
+
+```
+rm -R dir
+```
+
 ### Razno
 
 Koja sam user grupa:
