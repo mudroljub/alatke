@@ -4,6 +4,7 @@
       "node": true,
   },
   "globals": {
+      "angular": false,
       "Promise": false
   },
   "rules": {
