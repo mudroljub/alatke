@@ -11,3 +11,6 @@ export function loadData(url, calback) {
   });
   http.send(null);
 }
+
+// uklanja duplikate iz niza objekata
+izreke = izreke.filter((obj, i, self) => self.findIndex((t) => t.text === obj.text) === i)
