@@ -9,8 +9,6 @@
       "Promise": false
   },
   "rules": {
-      "semi": ["warn", "never"],
-      "quotes": ["warn", "single"],
       "no-undef": "error",
       "no-unused-vars": "error",
       "no-redeclare": "error",
@@ -41,6 +39,8 @@
       "object-shorthand": "error",
       "no-invalid-this": "error",
       "no-unexpected-multiline": "error",
+      "semi": ["warn", "never"],
+      "quotes": ["warn", "single"],
       "prefer-const": "warn",
       "space-infix-ops": "warn",
       "comma-spacing": ["warn", { "before": false, "after": true }],
