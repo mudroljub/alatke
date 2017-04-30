@@ -6,7 +6,7 @@
   },
   "globals": {
       "angular": false,
-      "Promise": false
+      "THREE": false
   },
   "rules": {
       "no-undef": "error",
