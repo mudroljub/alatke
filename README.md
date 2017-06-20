@@ -1,6 +1,6 @@
-![alatke](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Hand_tools.jpg/640px-Hand_tools.jpg)
+![alatke](https://cdn-images-1.medium.com/max/2000/1*mM2AMk0TRENA2zF2RMEebA.jpeg)
 
-# Moji programerski alati
+# Moje razvojne alatke
 
 Korisne skripte, podešavanja lintera, build automatizacija, komande za terminal, aliasi... Vredi pogledati.
 
