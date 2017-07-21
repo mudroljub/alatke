@@ -31,7 +31,6 @@
       "no-this-before-super": "error",
       "no-useless-constructor": "error",
       "no-class-assign": "error",
-      "no-confusing-arrow": ["error", {"allowParens": true}],
       "no-const-assign": "error",
       "no-dupe-class-members": "error",
       "no-duplicate-imports": "error",
