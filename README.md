@@ -5,4 +5,5 @@
 Korisne skripte, podešavanja lintera, build automatizacija, komande za terminal, aliasi... Vredi pogledati.
 
 Najvažnije:
+* [Podešavanja za ESlint](https://github.com/skolakoda/kodni-standard/blob/master/.eslintrc)
 * [Terminal komande](terminal/terminal-komande.md)
