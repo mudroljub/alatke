@@ -26,3 +26,5 @@ a = setInterval(function () {
 
 clearInterval(a)
 
+// uklanja one koji te ne prate
+// https://web.crowdfireapp.com/#/grow/2784561070-tw/nonFollowers?source=power_tools
