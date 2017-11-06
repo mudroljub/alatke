@@ -1,4 +1,4 @@
-// pracenje ljudi koje ne pratim
+// prati sve ljude koje ne pratim
 a = setInterval(function () {
   window.scrollTo(0,document.body.scrollHeight);
   $('.not-following .user-actions-follow-button.js-follow-btn button.follow-text').click();
@@ -9,6 +9,18 @@ a = setInterval(function () {
   window.scrollTo(0,document.body.scrollHeight);
   $('.ProfileTweet-actionButton.js-actionButton.js-actionFavorite:visible').click();
 }, 1000)
+
+// prati samo relevantne
+a = setInterval(function () {
+  window.scrollTo(0,document.body.scrollHeight);
+
+  $(".ProfileCard-userFields").each( function() {
+    if($(this).find('.ProfileCard-bio').text().match(new RegExp("entrepreneur|founder|tech|growthhacking|hacking|official|consultant|analytics|ecom|startup|ceo|ux|seo|ecommerce|growth"), "g") !== null )
+    {
+      $(this).parent().find('.not-following .user-actions-follow-button.js-follow-btn').click();
+    }
+  });
+}, 1000);
 
 clearInterval(a)
 
