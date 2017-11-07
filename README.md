@@ -8,4 +8,4 @@ Najvažnije:
 * [Podešavanja za ESlint](https://github.com/skolakoda/kodni-standard/blob/master/.eslintrc)
 * [Terminal komande](terminal/terminal-komande.md)
 
-Pogledaj i [programerske tutorijale](https://skolakoda.org/) koje pišem.
+Pogledaj i [besplatne programerske tutorijale](https://skolakoda.org/) koje pišem.
