@@ -1,17 +1,42 @@
-// prati sve ljude koje ne pratim
-a = setInterval(function () {
-  window.scrollTo(0,document.body.scrollHeight);
-  $('.not-following .user-actions-follow-button.js-follow-btn button.follow-text').click();
-}, 5000);
+/* napusti one koji me ne prate */
+
+let profili = [...$('.ProfileCard-content')]
+let i = 0
+setInterval(() => {
+  let profil = profili[i]
+  if (!profil) {
+    window.scrollTo(0,document.body.scrollHeight)
+    profili = [...$('.ProfileCard-content')]
+    i = 0
+  }
+  if (!profil.innerText.includes('Follows you'))
+    profil.querySelector('button.following-text').click()
+  i++
+}, Math.random() * 5000)
+
+/* zaprati one koje ne pratim */
+
+let dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
+let i = 0
+setInterval(function () {
+  let dugme = dugmici[i]
+  if (!dugme) {
+    window.scrollTo(0,document.body.scrollHeight)
+    dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
+    i = 0
+  }
+  dugme.click()
+  i++
+}, Math.random() * 5000);
 
 // favorizovanje svega redom
-a = setInterval(function () {
+setInterval(function () {
   window.scrollTo(0,document.body.scrollHeight);
   $('.ProfileTweet-actionButton.js-actionButton.js-actionFavorite:visible').click();
-}, 5000)
+}, Math.random() * 5000)
 
 // prati samo relevantne
-a = setInterval(function () {
+setInterval(function () {
   window.scrollTo(0,document.body.scrollHeight);
 
   $(".ProfileCard-userFields").each( function() {
@@ -20,11 +45,4 @@ a = setInterval(function () {
       $(this).parent().find('.not-following .user-actions-follow-button.js-follow-btn').click();
     }
   });
-}, 5000);
-
-// zaustavljanje
-
-clearInterval(a)
-
-// uklanja one koji te ne prate
-// https://web.crowdfireapp.com/#/grow/2784561070-tw/nonFollowers?source=power_tools
+}, Math.random() * 5000);
