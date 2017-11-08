@@ -14,6 +14,7 @@ setInterval(() => {
   i++
 }, Math.random() * 5000)
 
+
 /* zaprati one koje ne pratim */
 
 let dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
@@ -29,11 +30,22 @@ setInterval(function () {
   i++
 }, Math.random() * 5000);
 
-// favorizovanje svega redom
+
+/* favorizuj sve redom */
+
+let dugmici = [...$('.ProfileTweet-actionButton.js-actionButton.js-actionFavorite:visible')]
+let i = 0
 setInterval(function () {
-  window.scrollTo(0,document.body.scrollHeight);
-  $('.ProfileTweet-actionButton.js-actionButton.js-actionFavorite:visible').click();
+  let dugme = dugmici[i]
+  if (!dugme) {
+    window.scrollTo(0,document.body.scrollHeight);
+    dugmici = [...$('.ProfileTweet-actionButton.js-actionButton.js-actionFavorite:visible')]
+    i = 0
+  }
+  dugme.click()
+  i++
 }, Math.random() * 5000)
+
 
 // prati samo relevantne
 setInterval(function () {
