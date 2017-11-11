@@ -3,13 +3,12 @@
 let profili = [...$('.ProfileCard-content')].filter(el => !el.innerText.includes('Follows you'))
 let i = 0
 setInterval(() => {
-  let profil = profili[i]
-  if (!profil) {
+  if (!profili[i]) {
     window.scrollTo(0, document.body.scrollHeight)
     profili = [...$('.ProfileCard-content')].filter(el => el.querySelector('.following') && !el.innerText.includes('Follows you'))
     i = 0
   }
-  profil.querySelector('button.following-text').click()
+  profili[i].querySelector('button.following-text').click()
   i++
 }, Math.random() * 5000)
 
@@ -18,13 +17,12 @@ setInterval(() => {
 let dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
 let i = 0
 setInterval(function () {
-  let dugme = dugmici[i]
-  if (!dugme) {
+  if (!dugmici[i]) {
     window.scrollTo(0,document.body.scrollHeight)
     dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
     i = 0
   }
-  dugme.click()
+  dugmici[i].click()
   i++
 }, Math.random() * 5000);
 
@@ -34,13 +32,12 @@ setInterval(function () {
 let dugmici = [...$('.ProfileTweet-actionButton.js-actionButton.js-actionFavorite:visible')]
 let i = 0
 setInterval(function () {
-  let dugme = dugmici[i]
-  if (!dugme) {
+  if (!dugmici[i]) {
     window.scrollTo(0,document.body.scrollHeight);
     dugmici = [...$('.ProfileTweet-actionButton.js-actionButton.js-actionFavorite:visible')]
     i = 0
   }
-  dugme.click()
+  dugmici[i].click()
   i++
 }, Math.random() * 5000)
 
