@@ -1,19 +1,17 @@
 /* napusti one koji me ne prate */
 
-let profili = [...$('.ProfileCard-content')]
+let profili = [...$('.ProfileCard-content')].filter(el => !el.innerText.includes('Follows you'))
 let i = 0
 setInterval(() => {
   let profil = profili[i]
   if (!profil) {
-    window.scrollTo(0,document.body.scrollHeight)
-    profili = [...$('.ProfileCard-content')]
+    window.scrollTo(0, document.body.scrollHeight)
+    profili = [...$('.ProfileCard-content')].filter(el => el.querySelector('.following') && !el.innerText.includes('Follows you'))
     i = 0
   }
-  if (!profil.innerText.includes('Follows you'))
-    profil.querySelector('button.following-text').click()
+  profil.querySelector('button.following-text').click()
   i++
 }, Math.random() * 5000)
-
 
 /* zaprati one koje ne pratim */
 
