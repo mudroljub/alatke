@@ -2,11 +2,12 @@
 
 profili = [...$('.ProfileCard-content')].filter(el => el.querySelector('.following') && !el.innerText.includes('Follows you'))
 i = 0
-setInterval(() => {
+a = setInterval(() => {
   if (!profili[i]) {
     window.scrollTo(0, document.body.scrollHeight)
     profili = [...$('.ProfileCard-content')].filter(el => el.querySelector('.following') && !el.innerText.includes('Follows you'))
     i = 0
+    if (!profili[i]) clearInterval(a)
   }
   profili[i].querySelector('button.following-text').click()
   i++
@@ -14,13 +15,14 @@ setInterval(() => {
 
 /* zaprati one koje ne pratim */
 
-let dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
-let i = 0
-setInterval(function () {
+dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
+i = 0
+a = setInterval(function () {
   if (!dugmici[i]) {
     window.scrollTo(0,document.body.scrollHeight)
     dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
     i = 0
+    if (!dugmici[i]) clearInterval(a)
   }
   dugmici[i].click()
   i++
@@ -29,9 +31,9 @@ setInterval(function () {
 
 /* favorizuj sve redom */
 
-let dugmici = [...$('.ProfileTweet-actionButton.js-actionButton.js-actionFavorite:visible')]
-let i = 0
-setInterval(function () {
+dugmici = [...$('.ProfileTweet-actionButton.js-actionButton.js-actionFavorite:visible')]
+i = 0
+a = setInterval(function () {
   if (!dugmici[i]) {
     window.scrollTo(0,document.body.scrollHeight);
     dugmici = [...$('.ProfileTweet-actionButton.js-actionButton.js-actionFavorite:visible')]
