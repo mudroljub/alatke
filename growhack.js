@@ -1,7 +1,7 @@
 /* napusti one koji me ne prate */
 
-let profili = [...$('.ProfileCard-content')].filter(el => !el.innerText.includes('Follows you'))
-let i = 0
+profili = [...$('.ProfileCard-content')].filter(el => el.querySelector('.following') && !el.innerText.includes('Follows you'))
+i = 0
 setInterval(() => {
   if (!profili[i]) {
     window.scrollTo(0, document.body.scrollHeight)
@@ -10,7 +10,7 @@ setInterval(() => {
   }
   profili[i].querySelector('button.following-text').click()
   i++
-}, Math.random() * 5000)
+}, Math.random() * 1000)
 
 /* zaprati one koje ne pratim */
 
