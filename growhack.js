@@ -1,3 +1,5 @@
+clearInterval(a)
+
 /* napusti one koji me ne prate */
 
 profili = [...$('.ProfileCard-content')].filter(el => el.querySelector('.following') && !el.innerText.includes('Follows you'))
@@ -7,7 +9,6 @@ a = setInterval(() => {
     window.scrollTo(0, document.body.scrollHeight)
     profili = [...$('.ProfileCard-content')].filter(el => el.querySelector('.following') && !el.innerText.includes('Follows you'))
     i = 0
-    if (!profili[i]) clearInterval(a)
   }
   profili[i].querySelector('button.following-text').click()
   i++
@@ -22,12 +23,10 @@ a = setInterval(function () {
     window.scrollTo(0,document.body.scrollHeight)
     dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
     i = 0
-    if (!dugmici[i]) clearInterval(a)
   }
   dugmici[i].click()
   i++
 }, Math.random() * 5000);
-
 
 /* favorizuj sve redom */
 
