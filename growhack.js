@@ -43,6 +43,19 @@ a = setInterval(function () {
   i++
 }, Math.random() * 5000)
 
+/* odlajkuj sve redom */
+
+dugmici = [...$('.ProfileTweet-action--unfavorite.js-actionButton.js-actionFavorite:visible')]
+i = 100
+a = setInterval(function () {
+  if (!dugmici[i]) {
+    window.scrollTo(0,document.body.scrollHeight);
+    dugmici = [...$('.ProfileTweet-action--unfavorite.js-actionButton.js-actionFavorite:visible')]
+    i = 100
+  }
+  dugmici[i].click()
+  i++
+}, Math.random() * 3000)
 
 // prati samo relevantne
 setInterval(function () {
