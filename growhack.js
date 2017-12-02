@@ -16,11 +16,11 @@ a = setInterval(() => {
 
 /* zaprati one koje ne pratim */
 
-obradjeno = 1300
+obradjeno = 1400
 dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
 i = obradjeno
 a = setInterval(function () {
-  if (dugmici.length < i) {
+  if (dugmici.length <= i) {
     window.scrollTo(0,document.body.scrollHeight)
     dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
     i = obradjeno
