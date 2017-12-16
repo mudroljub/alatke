@@ -16,7 +16,7 @@ a = setInterval(() => {
 
 /* zaprati one koje ne pratim */
 
-obradjeno = 2400
+obradjeno = 2700
 dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
 i = obradjeno
 a = setInterval(function () {
