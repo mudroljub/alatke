@@ -20,7 +20,7 @@ https://twitter.com/startitrs
 https://twitter.com/ICTHubBgd
 https://twitter.com/slobodan_
 
-obradjeno = 3100
+obradjeno = 3400
 dugmici = [...$('.not-following .user-actions-follow-button.js-follow-btn button.follow-text')]
 i = obradjeno
 a = setInterval(function () {
