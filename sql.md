@@ -19,3 +19,11 @@ update znaci.hronologija, znaci2.hronologija
 set znaci.hronologija.datum = znaci2.hronologija.datum
 where znaci.hronologija.id = znaci2.hronologija.id;
 ```
+
+Stavlja dan 30 svugde gde je dan u datumu nepoznat, odnosno 0:
+
+```sql
+UPDATE hronologija
+SET datum = STR_TO_DATE(CONCAT(30, '-', MONTH(datum), '-', YEAR(datum)),'%d-%m-%Y')
+WHERE DAY(datum)=0
+```
