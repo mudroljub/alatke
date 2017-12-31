@@ -20,10 +20,10 @@ set znaci.hronologija.datum = znaci2.hronologija.datum
 where znaci.hronologija.id = znaci2.hronologija.id;
 ```
 
-Stavlja dan 30 svugde gde je dan u datumu nepoznat, odnosno 0:
+Stavlja dan 30 svugde gde je dan u datumu 0 (osim za februar):
 
 ```sql
 UPDATE hronologija
 SET datum = STR_TO_DATE(CONCAT(30, '-', MONTH(datum), '-', YEAR(datum)),'%d-%m-%Y')
-WHERE DAY(datum)=0
+WHERE DAY(datum)=0 AND MONTH(datum)!=2
 ```
