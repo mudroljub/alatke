@@ -46,4 +46,5 @@ Takođe:
 SELECT * FROM fotografije 
 LEFT JOIN oznaka_fotografija ON fotografije.id = oznaka_fotografija.fotografija_id
 LEFT JOIN oznaka ON oznaka_fotografija.oznaka_id = oznaka.id
+WHERE oznaka_id=1309
 ```
