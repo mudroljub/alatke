@@ -27,3 +27,15 @@ UPDATE hronologija
 SET datum = STR_TO_DATE(CONCAT(30, '-', MONTH(datum), '-', YEAR(datum)),'%d-%m-%Y')
 WHERE DAY(datum)=0 AND MONTH(datum)!=2
 ```
+Povezuje oznake sa fotografijama:
+
+```sql
+SELECT fotografije.*,
+       GROUP_CONCAT(oznaka.naziv ORDER BY oznaka.naziv) AS oznake
+FROM fotografije
+    LEFT JOIN oznaka_fotografija
+        ON fotografije.id = oznaka_fotografija.fotografija_id
+    LEFT JOIN oznaka
+        ON oznaka_fotografija.oznaka_id = oznaka.id
+GROUP BY fotografije.id
+```
