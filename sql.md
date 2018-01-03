@@ -39,3 +39,11 @@ FROM fotografije
         ON oznaka_fotografija.oznaka_id = oznaka.id
 GROUP BY fotografije.id
 ```
+
+Takođe:
+
+```sql
+SELECT * FROM fotografije 
+LEFT JOIN oznaka_fotografija ON fotografije.id = oznaka_fotografija.fotografija_id
+LEFT JOIN oznaka ON oznaka_fotografija.oznaka_id = oznaka.id
+```
