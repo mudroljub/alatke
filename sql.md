@@ -48,3 +48,15 @@ LEFT JOIN oznaka_fotografija ON fotografije.id = oznaka_fotografija.fotografija_
 LEFT JOIN oznaka ON oznaka_fotografija.oznaka_id = oznaka.id
 WHERE oznaka_id=1309
 ```
+
+Pokazuje najpopularnije tagove:
+
+```sql
+SELECT oznaka.id,
+       oznaka.naziv,
+       count(oznaka_fotografija.fotografija_id) AS COUNT
+FROM oznaka
+LEFT JOIN oznaka_fotografija ON (oznaka.id=oznaka_fotografija.oznaka_id)
+GROUP BY oznaka.id  
+ORDER BY `COUNT`  DESC
+```
