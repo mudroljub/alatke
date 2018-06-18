@@ -12,6 +12,12 @@ curl https://www.heroforge.com/static/herobundles/hair/hf_hair_loRez_hair02_nrml
 scp gorran01@znaci.net:public_html/damjan/ukljuci/povezivanje.php ukljuci/povezivanje.php
 ```
 
+Kopira samo fajlove koji ne postoje, sa udaljenog servera u trenutni direktorij:
+
+```
+rsync -a --ignore-existing pozorista@pozorista.net:~/public_html .
+```
+
 ### Rekurzivno nalazi i briše fajlove
 
 Prvo nalazi:
