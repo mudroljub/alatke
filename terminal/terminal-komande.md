@@ -167,3 +167,9 @@ Proverava apache (apache nece da krene kad se obrise log folder!) :
 ```
 sudo apachectl configtest
 ```
+
+### Promena permisija
+
+```
+chmod -R 777 .
+```
