@@ -1,5 +1,19 @@
 # Terminal
 
+### Pretraga sadržaja
+
+Traži reč 'serve' u README fajlu:
+
+```
+grep -i 'serve' README.md
+```
+
+Traži reč 'serve' rekurzivno:
+
+```
+grep -i -r 'serve' .
+```
+
 ### Kopiranje sa neta
 
 ```
