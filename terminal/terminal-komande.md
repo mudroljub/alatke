@@ -44,6 +44,25 @@ Potom briše:
 find . -name "*.spec.js" -type f -delete
 ```
 
+### Briše fajlove regularnim izrazom
+
+Nalazi slike koje počinju brojem:
+
+```
+echo [0-9]*.jpg
+```
+
+Nalazi slike koje počinju slovom:
+
+```
+echo [a-z]*.jpg
+```
+
+Briše slike koje počinju slovom:
+```
+rm [a-z]*.jpg
+```
+
 ### Preimenuje fajlove
 
 Menja sve nazive fajlova u mala slova:
