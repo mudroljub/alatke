@@ -77,6 +77,11 @@ Menja ekstenziju u mala slova:
 rename 's/\.MD$/.md/' *.MD
 ```
 
+Menja deo naziva svih slika u folderu:
+```
+rename 's/stari-naziv/novi-naziv/' *.jpg
+```
+
 Menja ekstenziju u mala slova u podfolderima:
 ```
 rename 's/\.MD$/.md/' */*.MD
