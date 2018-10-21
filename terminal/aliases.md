@@ -1,7 +1,7 @@
 # Handy terminal aliases
 
 ```sh
-# put in .bashrc or .zshrc
+# put in ~/.bashrc
 alias rm=trash
 alias otv="xdg-open"
 alias projekti="cd /home/damjan/projekti"
