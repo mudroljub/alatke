@@ -1,0 +1,20 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": false,
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "off",
+  "files.insertFinalNewline": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.validate.enable": false,
+  "window.zoomLevel": 3,
+  "workbench.startupEditor": "newUntitledFile"
+}
