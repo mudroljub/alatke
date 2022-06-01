@@ -118,7 +118,7 @@ find . -name "*.mobi" -exec mv -t literatura/za-citac/ {} +
 
 ### Prikazuje ko zauzima mesto na disku
 
-Prikazuje sve:
+Prikazuje veličinu svih foldera i podfoldera:
 ```
 du -h
 ```
@@ -126,6 +126,16 @@ du -h
 Prikazuje samo velike potrosace (vise od giga):
 ```
 du -h | grep '[0-9\.]\+G'
+```
+
+Prikazuje samo veličinu foldera bez podfoldera:
+```
+du -h --max-depth=1
+```
+
+Sortira foldere po veličini:
+```
+du -h --max-depth=1 | sort -h
 ```
 
 ### Broji fajlove
