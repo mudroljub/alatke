@@ -1,3 +1,5 @@
+![alatke](https://cdn-images-1.medium.com/max/2000/1*mM2AMk0TRENA2zF2RMEebA.jpeg)
+
 # Terminal
 
 ### Pretraga sadržaja
