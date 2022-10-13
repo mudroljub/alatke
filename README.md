@@ -140,6 +140,11 @@ Sortira foldere po veličini:
 du -h --max-depth=1 | sort -h
 ```
 
+Sortira fajlove po veličini:
+```
+du -ha | sort -h
+```
+
 ### Broji fajlove
 
 Prikazuje ukupan broj fajlova:
