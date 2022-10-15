@@ -22,7 +22,9 @@ grep -i -r 'serve' .
 curl https://www.heroforge.com/static/herobundles/hair/hf_hair_loRez_hair02_nrml.jpg --create-dirs -o static/herobundles/hair/hf_hair_loRez_hair02_nrml.jpg
 ```
 
-### Kopiranje sa servera na lokal (poziva se sa lokala)
+### Kopiranje sa servera na lokal
+
+(poziva se sa lokala)
 
 ```
 scp gorran01@znaci.net:public_html/damjan/ukljuci/povezivanje.php ukljuci/povezivanje.php
